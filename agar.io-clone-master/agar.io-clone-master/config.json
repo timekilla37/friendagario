@@ -14,12 +14,12 @@
         },
 		"splitMass": 180
 	},
-    "gameWidth": 3000,
-    "gameHeight": 3000,
+    "gameWidth": 4000,
+    "gameHeight": 4000,
     "adminPass": "DEFAULT",
     "gameMass": 40000,
     "maxFood": 750,
-    "maxVirus": 10,
+    "maxVirus": 0,
     "slowBase": 4.5,
     "logChat": 0,
     "networkUpdateFactor": 40,
@@ -28,5 +28,5 @@
     "virusUniformDisposition": false,
     "newPlayerInitialPosition": "farthest",
     "massLossRate": 1,
-    "mergeTimer": 10
+    "mergeTimer": 15
 }
