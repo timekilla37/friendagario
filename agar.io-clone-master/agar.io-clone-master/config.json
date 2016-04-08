@@ -6,7 +6,7 @@
     "defaultPlayerMass": 25,
 	"virus": {
     "fill": "#FFFFFF",
-  	"stroke": "#19D119",
+  	"stroke": "#FFFFFF",
 		"strokeWidth": 3,
 		"defaultMass": {
             "from": 100,

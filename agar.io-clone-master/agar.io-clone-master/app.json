@@ -1,6 +1,6 @@
 {
-  "name": "agar-clone",
-  "description": "A simple Agar.io clone",
+  "name": "Heil Hitler",
+  "description": "Agar.io minus the Jews",
   "scripts": {
     "build": "gulp build",
     "start": "gulp run",
