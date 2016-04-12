@@ -9,24 +9,24 @@
   	"stroke": "#FFFFFF",
 		"strokeWidth": 3,
 		"defaultMass": {
-            "from": 100,
-            "to": 150
+            "from": 10,
+            "to": 50
         },
-		"splitMass": 180
+		"splitMass": 100
 	},
-    "gameWidth": 4000,
-    "gameHeight": 4000,
+    "gameWidth": 4500,
+    "gameHeight": 4500,
     "adminPass": "hitler",
     "gameMass": 40000,
-    "maxFood": 750,
+    "maxFood": 1500,
     "maxVirus": 10,
     "slowBase": 4.5,
     "logChat": 0,
     "networkUpdateFactor": 40,
     "maxHeartbeatInterval": 500000,
     "foodUniformDisposition": true,
-    "virusUniformDisposition": true,
+    "virusUniformDisposition": false,
     "newPlayerInitialPosition": "farthest",
     "massLossRate": 0,
-    "mergeTimer": 15
+    "mergeTimer": 10
 }
