@@ -464,11 +464,6 @@ function toggleRoundFood(args) {
     }
 }
 
-function toggleGetBigger() {
-mass = 10000;
-chat.addEventListener('Became bigger');
-}
-
 // TODO: Break out many of these GameControls into separate classes.
 
 chat.registerCommand('ping', 'Check your latency.', function () {
@@ -506,10 +501,6 @@ chat.registerCommand('login', 'Login as an admin.', function (args) {
 chat.registerCommand('kick', 'Kick a player, for admins only.', function (args) {
     socket.emit('kick', args);
 });
-
-chat.registerCommand('eat', 'Get bigger.', function () {
-toggleGetBigger();
-}};
 
 
 // socket stuff.
