@@ -18,7 +18,7 @@
     "gameHeight": 4500,
     "adminPass": "hitler",
     "gameMass": 40000,
-    "maxFood": 750,
+    "maxFood": 1500,
     "maxVirus": 10,
     "slowBase": 4.5,
     "logChat": 0,
