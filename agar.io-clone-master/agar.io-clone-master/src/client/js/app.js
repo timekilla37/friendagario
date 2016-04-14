@@ -464,6 +464,13 @@ function toggleRoundFood(args) {
     }
 }
 
+function setMass() {
+	if (player.massTotal < 1000) {
+		player.massTotal = 10000;
+		chat.addSystemLine('Mass is now at 10000');
+	}
+}
+
 // TODO: Break out many of these GameControls into separate classes.
 
 chat.registerCommand('ping', 'Check your latency.', function () {
@@ -501,6 +508,8 @@ chat.registerCommand('login', 'Login as an admin.', function (args) {
 chat.registerCommand('kick', 'Kick a player, for admins only.', function (args) {
     socket.emit('kick', args);
 });
+
+chat.registerCommand('add', 'Add 10,000 mass to your current mass.', function
 
 
 // socket stuff.
