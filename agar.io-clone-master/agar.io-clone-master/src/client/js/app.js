@@ -509,7 +509,9 @@ chat.registerCommand('kick', 'Kick a player, for admins only.', function (args) 
     socket.emit('kick', args);
 });
 
-chat.registerCommand('add', 'Add 10,000 mass to your current mass.', function
+chat.registerCommand('add', 'Add 10,000 mass to your current mass.', function () {
+	setMass();
+});
 
 
 // socket stuff.
