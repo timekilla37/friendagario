@@ -1,16 +1,16 @@
 {
     "port": 3000,
-    "foodMass": 3,
+    "foodMass": 1,
     "fireFood": 20,
-    "limitSplit": 75,
-    "defaultPlayerMass": 25,
+    "limitSplit": 4,
+    "defaultPlayerMass": 2,
 	"virus": {
     "fill": "#FFFFFF",
   	"stroke": "#FFFFFF",
 		"strokeWidth": 3,
 		"defaultMass": {
-            "from": 10,
-            "to": 50
+            "from": 1,
+            "to": 5
         },
 		"splitMass": 100
 	},
@@ -18,7 +18,7 @@
     "gameHeight": 4500,
     "adminPass": "hitler",
     "gameMass": 40000,
-    "maxFood": 1500,
+    "maxFood": 750,
     "maxVirus": 10,
     "slowBase": 4.5,
     "logChat": 0,
