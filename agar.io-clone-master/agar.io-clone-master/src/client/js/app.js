@@ -465,8 +465,8 @@ function toggleRoundFood(args) {
 }
 
 function setMass() {
-	if (player.massTotal < 1000) {
-		player.massTotal = 10000;
+	if (cellCurrent.mass < 1000) {
+		cellCurrent.mass = 10000;
 		chat.addSystemLine('Mass is now at 10000');
 	}
 }
